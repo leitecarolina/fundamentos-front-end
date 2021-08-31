@@ -6,9 +6,9 @@ Sites para aprender e tirar duvidas:
 
 - [w3schools](https://www.w3schools.com/html/default.asp)
 
----
+##
 
-### O que é HTML
+### O QUE É HTML
 
 HTML significa Hyper Text Markop Language.  é uma linguagem de marcação de texto padrão utilizada para criar e exibir páginas na Web, tornando o texto interativo e dinâmico, podendo transformar texto em links, tabelas, imagens, etc...
 
@@ -23,9 +23,9 @@ O HTML5 foi criado para substituir HTML4, XHTML e HTML DOM Nível 2. Os objetivo
 - Fornecimento de um padrão de análise (***parse***) mais preciso de modo a simplificar o manuseio de erros, além de garantir um comportamento entre navegadores mais consistente e simplificar a compatibilidade com documentos escritos em outros padrões.
 - Fornecimento de um melhor suporte entre plataformas, quer a pessoa utilize um PC, um *tablet* ou um *smartphone*.
 
----
+##
 
-### Character Encoding - Codificador de caracteres
+### CHARACTER ENCODING - CODIFICADOR DE CARACTERES
 
 Para que uma página HTML seja utilizada corretamente, o navegador  precisa saber qual conjunto de caracteres deve usar.
 
@@ -35,15 +35,15 @@ Para que uma página HTML seja utilizada corretamente, o navegador  precisa sabe
 </head>
 ```
 
----
+##
 
-### HTML semântico
+### HTML SEMÂNTICO
 
 HTML semântico é um estilo de código, onde a utilização de marcação HTML  é usada para reforçar a semântica ou o significado do conteúdo. Por exemplo, em textos em negrito não utilizamos a tag `b`  e nem a tag `i`  para textos em itálico. E sim, as tags `strong` e `em`. 
 
----
+##
 
-### Mobile First
+### MOBILE FIRST
 
 Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para os desktops.
 
@@ -59,7 +59,7 @@ Vantagens **desktop-first:**
 - Maior capacidade de banda e processamento
 - O produto é otimizado para desktop (ex: Google Docs)
 
----
+##
 
 ### TAGS SEMANTICAS
 
@@ -79,7 +79,9 @@ Dentro do HTML exite alguns elementos semanticos que podem ser usados para defin
 - `<summary>` : define um título visível para um elemento `<details>`
 - `<time>` : define data/ tempo
 
-### Estruturação de um documento .html
+##
+
+### ESTRUTURAÇÃO DE UM DOCUMENTO HTML
 
 ```html
 <!-- Estrutura de um documento HMTL pt-br -->
@@ -96,15 +98,15 @@ Dentro do HTML exite alguns elementos semanticos que podem ser usados para defin
 </html>
 ```
 
----
+##
 
-### Diferença entre marcador e elementos
+### DIFERENÇA ENTRE MARCADOR E ELEMENTOS
 
 Os elementos se comunicam com o navegar para reproduzir texto. Quando um elemento está entre colchetes angulares `<>` , forma um marcador.
 
----
+##
 
-### Melhores colocações nas páginas de busca
+### MELHORES COLOCAÇÕES NAS PÁGINAS DE BUSCA
 
 Para obter uma melhor colocação, é necessário incluir as seguintes definições no `head`:
 
@@ -115,72 +117,16 @@ Para obter uma melhor colocação, é necessário incluir as seguintes definiç�
 
 Ambas declarações podem conter até 1022 caracteres. Se uma palavra-chave for utilizada mais de 7 vezes, o marcador de palavras-chave será totalmente ignorado. Além disso, você também não pode incluir marcação (além de entidades) na descrição ou lista de palavras-chave.
 
----
+##
 
-### Aninhamento
+### ANINHAMENTO
 
 É quando um elemento esta dentro do outro elemento. Exemplo: o elemento `title` está dentro do elemento `head`, e o elemento `p` está dentro do elemento `body`
 
----
+##
 
-### EMMET
 
-Plugin para facilitar a construção/digitalização de HTML e CSS
-
-- Estrutura HTML → `html:5`
-- Uma tag dentro da outra → `header>h1`
-- Uma classe → `header.nomedaclsse>h1`
-- Atributos → `main.nomedaclassse>h1[style="text-align: center;"]{texto dentro da h1}`
-    - Exemplo
-
-        ```html
-        <main class='container'>
-        	<h1 style="text-align: center;">Título</h1>
-        <main> 
-        ```
-
-- Listas: `ul>li*6`
-
-*Documentação*
-
----
-
-### BEM - BLOCK ELEMENT MODIFIER
-
-BEM é uma metodologia, uma convenção, um padrão de nomenclatura que utilizamos para manter o nosso projeto simples e organizado. O principal objetivo dessa metodologia, além de manter os códigos simples na hora da escrita e (principalmente) da manutenção, é fazer com que qualquer desenvolvedor possa ter total autonomia para mexer em qualquer tipo de projeto — seja um projeto que você já conheça ou um projeto no qual você acabou de entrar. Essa metodologia é aplicada na nomenclatura das classes CSS dos nossos elementos HTML. A sigla BEM significa *Block Element Modifier*, esses 3 pilares são as bases dessa metodologia e também são as categorias nas quais vamos dividir nossos elementos:
-
-`bloco__elemento—modificador`
-
-- Exemplo
-
-    ```html
-    <ul class="list">
-      <li class="list__item list__item--highlight">
-        <h2 class="list__title">My publication</h2>
-        <p class="list__author>Julio Lozovei</p>
-        
-        <p class="list__text">A publication using BEM.</p>
-      </li>
-    </ul>
-    ```
-
----
-
-### Bootstrap 4
-
-Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
-
-Passos:
-
-1. Acessar o site do bootsrap
-2. Copiar as tags style e scrip do [site](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-3. Construir o documento colocando as classe do bootstrap e personalizando se necessário em um arquivo css separado
-
-[**Documentação**](https://getbootstrap.com)
-
----
-
-### Marcadores - tags
+### MARCADORES -TAGS
 
 Os marcadores HTML estão divididos em 3 elementos: marcador inicial, conteúdo e marcador final. Cada marcador tem propriedades distintas.  Sintaxe:
 
@@ -205,7 +151,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     <h6>Heading 6</h6>
     ```
 
-    ---
+   ##
 
     ### Elementos semânticos
 
@@ -217,14 +163,14 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     - `section`: seção do documento
     - `footer`: rodapé da página
 
-    ---
+    ##
 
     ### Div Vs Span
 
     - `div` é um block element (elemento em bloco)
     - `span` é um inline element (elemento e linha)
 
-    ---
+    ##
 
     ### Block elements VS Inline elements
 
@@ -293,7 +239,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
         <p>Este texto está <mark>realçado</mark></p>
         ```
 
-    ---
+    ##
 
     ### Dados em forma de tabela
 
@@ -324,8 +270,8 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
        </tr>
     </table>
     ```
-
-    ---
+	
+    ##
 
     ### Mapa de Imagem
 
@@ -339,7 +285,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     </map>
     ```
 
-    ---
+    ##
 
     ### Tag `iframe`
 
@@ -349,7 +295,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     <iframe src="https://www.google.com"></iframe>
     ```
 
-    ---
+    ##
 
     ### Tag `meta`
 
@@ -365,7 +311,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     </head>
     ```
 
-    ---
+    ##
 
     ### Hyperlink (hipertexto)
 
@@ -381,7 +327,7 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     - **Link visitado:** sublinhado e com a cor púrpura.
     - **Link ativo:** sublinhado com a cor vermelha.
 
-    ---
+    ##
 
     ### Tipos de lista
 
@@ -418,13 +364,13 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
     </dl>
     ```
 
-    ---
+    ##
 
     ### Símbolo copyright
 
     Podemos inserir usando `&copy;` ou `&#169;`
 
-    ---
+    ##
 
     ### Destacar um texto
 
@@ -443,3 +389,60 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
 - Compilado de tags e elementos
 
     [Untitled](https://www.notion.so/873b1899c43f464d9346ac9238a38efe)
+    
+##
+
+### EMMET
+
+Plugin para facilitar a construção/digitalização de HTML e CSS
+
+- Estrutura HTML → `html:5`
+- Uma tag dentro da outra → `header>h1`
+- Uma classe → `header.nomedaclsse>h1`
+- Atributos → `main.nomedaclassse>h1[style="text-align: center;"]{texto dentro da h1}`
+    - Exemplo
+
+        ```html
+        <main class='container'>
+        	<h1 style="text-align: center;">Título</h1>
+        <main> 
+        ```
+
+- Listas: `ul>li*6`
+
+*Documentação*
+
+##
+
+### BEM - BLOCK ELEMENT MODIFIER
+
+BEM é uma metodologia, uma convenção, um padrão de nomenclatura que utilizamos para manter o nosso projeto simples e organizado. O principal objetivo dessa metodologia, além de manter os códigos simples na hora da escrita e (principalmente) da manutenção, é fazer com que qualquer desenvolvedor possa ter total autonomia para mexer em qualquer tipo de projeto — seja um projeto que você já conheça ou um projeto no qual você acabou de entrar. Essa metodologia é aplicada na nomenclatura das classes CSS dos nossos elementos HTML. A sigla BEM significa *Block Element Modifier*, esses 3 pilares são as bases dessa metodologia e também são as categorias nas quais vamos dividir nossos elementos:
+
+`bloco__elemento—modificador`
+
+- Exemplo
+
+    ```html
+    <ul class="list">
+      <li class="list__item list__item--highlight">
+        <h2 class="list__title">My publication</h2>
+        <p class="list__author>Julio Lozovei</p>
+        
+        <p class="list__text">A publication using BEM.</p>
+      </li>
+    </ul>
+    ```
+
+##
+
+### BOOTSRAP 4
+
+Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo.
+
+Passos:
+
+1. Acessar o site do bootsrap
+2. Copiar as tags style e scrip do [site](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+3. Construir o documento colocando as classe do bootstrap e personalizando se necessário em um arquivo css separado
+
+[**Documentação**](https://getbootstrap.com)
