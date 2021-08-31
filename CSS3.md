@@ -5,7 +5,7 @@
 CSS significa Cascading Style Sheets, e descreve como os elementos HTML devem ser exibidos na tela, no papel ou em outra mídia
 O CSS pode controlar o layout de várias páginas da web de uma só vez.
 
----
+##
 
 ### ADICIONANDO CSS
 
@@ -79,7 +79,7 @@ O CSS pode controlar o layout de várias páginas da web de uma só vez.
     </html>
     ```
 
----
+##
 
 ### SELETORES
 
@@ -141,7 +141,7 @@ Os seletores CSS são usados para "encontrar" (ou selecionar) os elementos HTML 
     }
     ```
 
----
+##
 
 ### CORES
 
@@ -159,7 +159,7 @@ As cores são especificadas usando nomes de cores predefinidos ou valores RGB, H
 
 - [Color Names](https://www.w3schools.com/colors/colors_names.asp)
 
----
+##
 
 ### CSS RESPONSIVO - MEDIA QUERY
 
@@ -187,6 +187,8 @@ chamad__texto igual a 600px*/
 
 🔗 [Definição de tamanhos](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/) 
 
+##
+
 ### CLASS VS. ID
 
 Class:  utilizada para elementos que repetem muitas vezes
@@ -202,7 +204,7 @@ Id: utilizado quando o elemento é único na página;
 </ul>
 ```
 
----
+##
 
 ### COMENTÁRIOS
 
@@ -214,7 +216,7 @@ a multi-line
 comment */
 ```
 
----
+##
 
 ### GUIA DE UNIDADES
 
@@ -284,7 +286,7 @@ comment */
     - Vmin (viewport minimun): utilizará como base a menor dimensão da viewport (altura x largura). Imagine que estamos trabalhando com uma viewport de 1600px de altura e 900px de largura. Nesse caso, 1vmin terá o valor de 9px (1% da menor dimensão!), caso tenhamos 100vmin, esse será igual a 900px!
     - Vmax (viewport maximum): terá como valor de referência a maior dimensão da viewport. Ou seja, utilizando o mesmo exemplo, se tivermos 1600px de altura e 900px de largura, 1vmax será equivalente a 16px!
 
----
+##
 
 ### CSS VARIAVEIS
 
@@ -325,14 +327,12 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 - *cross-start | cross-end*: Linhas flex são preenchidas com ítens e adicionadas ao container, começando pelo lado *cross start* do *flex container* em direção ao lado *cross end*.
 - *cross size*: A largura ou altura de um *flex item*, dependendo do que estiver na dimensão transversal, é o *cross size* do íten. A propriedade *cross size* pode ser tanto a largura quanto a altura do ítem, o que estiver na transversal.
 
----
+##
 
 ### PROPIEDADES CONTAINER
 
 - Display: coloca todos os elementos filhos em flex
     - exemplos
-
-        ![CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%201.png](CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%201.png)
 
         ```css
         .container {
@@ -342,8 +342,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 - Flex-direction: estabelece a direção do flex
     - exemplos
 
-        ![CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%202.png](CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%202.png)
-
         - `row` (padrão): esquerda para a direita em `ltr` (left to right), direita para a esquerda em `rtl` (right to left)
         - `row-reverse`: direita para a esquerda em `ltr`, esquerda para a direita em `rtl`
         - `column`: mesmo que `row`, mas de cima para baixo
@@ -351,8 +349,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 
 - Flex-wrap: faz a quebra de linha
     - exemplos
-
-        ![CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%203.png](CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled%203.png)
 
         - `nowrap` (padrão): todos os *flex items* ficarão em uma só linha
         - `wrap`: os *flex items* vão quebrar em múltiplas linhas, de cima para baixo
@@ -370,8 +366,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 - Justify-content: define o alinhamento dos itens ao longo do eixo principal, distribuindo o espaço livre do container
     - exemplos
 
-        ![https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
-
         - `flex-start` (padrão): os ítens são alinhados junto à borda de início (start) de acordo com qual for a `flex-direction` do container.
         - `flex-end`: os ítens são alinhados junto à borda final (end) de acordo com qual for a `flex-direction` do container.
         - `start`: os ítens são alinhados junto à borda de início da direção do `writing-mode` (modo de escrita).
@@ -386,8 +380,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 - Align-items: define como os flex items são posicionados de acordo com o eixo transversal
     - exemplos
 
-        ![https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
-
         - `stretch` (padrão): estica os ítens para preencher o container, respeitando o `min-width`/`max-width`).
         - `flex-start`/ `start` / `self-start`: ítens são posicionados no início do eixo transversal. A diferença entre eles é sutil e diz respeito às regras de `flex-direction` ou `writing-mode`.
         - `center`: ítens são centralizados no eixo transversal.
@@ -395,8 +387,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 
 - Align-content: organiza as linhas dentro do container quando tem espaço extra no eixo transversal
     - exemplos
-
-        ![https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
 
         - `flex-start` / `start`: ítens alinhados com o início do container. O valor (com maior suporte dos navegadores) flex-start se guia pela flex-direction, enquanto start se guia pela direção do writing-mode.
         - `flex-end` / `end`: ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode.
@@ -406,12 +396,13 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
         - `space-evenly`: ítens distribuídos igualmente com o mesmo espaçamento entre eles.
         - `stretch` (padrão): ítens em cada linha esticam para ocupar o espaço remanescente entre elas.
 
+##
+
+
 ### PROPIEDADES FLEX ITEMS
 
 - Order: determina a ordem que os elementos vão aparecer
     - exemplos
-
-        ![https://css-tricks.com/wp-content/uploads/2018/10/order.svg](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
 
         ```css
         .flex-item {
@@ -421,8 +412,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 
 - Flex-grow: habilidade que um flex item tem de crescer. O valor dessa propriedade é um valor numérico sem indicação de unidade, que serve para cálculo de proporção. Este valor dita a quantidade de espaço disponível no container que será ocupado pelo item. Se todos os ítens tiverem flex-grow definido em 1, o espaço remanescente no container será distribuído de forma igual entre todos. Se um dos ítens tem o valor de 2, vai ocupar o dobro de espaço no container com relação aos outros
     - exemplos
-
-        ![https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
 
         ```css
         .flex-item {
@@ -460,8 +449,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 - Align-self: permite que o alinhamento padrão definido por `align-items` seja sobrescrito
     - exemplos
 
-        ![https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
-
         ```css
         .item {
             align-self: auto | flex-start | flex-end | center | baseline | stretch;
@@ -471,12 +458,9 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 ---
 
 ### CSS GRID
+O CSS Grid oferece um sistema de layout baseado em grade, com linhas e colunas, tornando mais fácil projetar páginas da web sem ter que usar flutuadores e posicionamento.
 
-dsfsdfsdf
-
-Grid tem final exclusivo
-
-Precisa estar definido no elemento pai:
+Exemplo:
 
 ```css
 .pai {
@@ -489,6 +473,8 @@ Precisa estar definido no elemento pai:
 	grid-template-rows: 50px 100vh auto;
 }
 ```
+
+🔗 [Documentação](https://www.w3schools.com/css/css_grid.asp)
 
 ---
 
@@ -504,6 +490,8 @@ Passos:
     1. usando:  `sass nomedoaquivo.scss:nomedoarquivo.css`
     2. ou assistindo: `sass —watch nomedoaquivo.scss:nomedoarquivo.css` (faz atualização automatica)
 
+##
+
 ### VARIÁVEIS
 
 Para declarar uma variável usa $:
@@ -517,14 +505,14 @@ h1 {
 }
 ```
 
----
+##
 
 ### COMENTÁRIOS
 
 - /*   */  - aparece no arquivo .css
 - //  - não aparece no arquivo .css
 
----
+##
 
 ### ANINHAMENTO
 
@@ -557,6 +545,7 @@ a {
       text-decoration: underline;
     }
 ```
+##
 
 ### MIXIN
 
@@ -587,7 +576,7 @@ Quando a variável tiver mais de um valor usar () na função:
 @include borda-arredondada;
 ```
 
----
+##
 
 ### IMPORT
 
@@ -602,7 +591,7 @@ Podemos dividir o arquivo scss em vários arquivos, e deixar o principal apenas 
 //não pracisa usar extenção
 ```
 
----
+##
 
 ### PLACEHOLDER
 
