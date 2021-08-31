@@ -318,8 +318,6 @@ O Flexbox tem como meta ser um modo mais eficiente para criar layouts, alinhar e
 
 🔗 [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-![CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled.png](CSS3%201c9f104080b443e4bb2f2c00f60334ca/Untitled.png)
-
 - Eixo principal: o eixo principal de um *flex container* é o eixo primário e ao longo dele são inseridos os *flex items*. **Cuidado**: O eixo principal não é necessariamente horizontal; vai depender da propriedade `flex-direction` .
 - *main-start | main-end*: os *flex items* são inseridos dentro do container começando pelo lado *start*, indo em direção ao lado *end*.
 - Tamanho principal: A largura ou altura de um *flex item*, dependendo da direção do container, é o tamanho principal do ítem. A propriedade de tamanho principal de um *flex item* pode ser tanto `width` quanto `height`, dependendo de qual delas estiver na direção principal.
