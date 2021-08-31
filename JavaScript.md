@@ -442,12 +442,12 @@ Os tipos primitivos em JS são true, false, number, strings, null e undefined. T
 ### VARIÁVEIS
 
 - Números: float e int
-- String:  a line of text like "boat", "elephant" or "damn, you are tall!"
-- Boolean: either true or false, but nothing else
+- String:  uma linha de texto como "carro", "elefante" ou "uma frase completa"
+- Boolean: verdadeiro ou falso (0 ou 1)
 - Arrays: são geralmente descritas como "lista de objetos"; elas são basicamente objetos que contem múltiplos valores armazenados em uma lista.
-- Objects: a representation of a more complex object
-- Null: a variable that contains null contains no valid Number, String, Boolean, Array, or Object
-- Undefined: the undefined value is obtained when you use an object property that does not exist, or a variable that has been declared, but has no value assigned to it.
+- Objects: uma representação de um objeto mais complexo
+- Null: uma variável que contém nulo não contém nenhum número, string, booleano, matriz ou objeto válido
+- Undefined: o valor indefinido é obtido quando você usa uma propriedade de objeto que não existe, ou uma variável que foi declarada, mas não tem nenhum valor atribuído a ela
 
 ##
 
@@ -540,13 +540,10 @@ map(double, [5, 6, 7]); // => [10, 12, 14]
 
 ##
 
-### CONST VS LET VS VAR
+### CONST VS LET 
 
 - Const = é uma variável que não pode ser alterada ao longo do código
 - Let = é uma variável comum que pode ser alterada.
-- Var =
-
-![JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled.png](JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled.png)
 
 ---
 
@@ -557,10 +554,6 @@ Conjunto de objetos dentro do navegar, o DOM não funciona no node, apenas no na
 ```jsx
 window.document.write('.......')
 ```
-
-- Árvore DOM - Exemplo
-
-    ![JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled%201.png](JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled%201.png)
 
 ##
 
