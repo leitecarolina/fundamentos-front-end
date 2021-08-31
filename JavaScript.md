@@ -12,7 +12,7 @@ Links:
 
 - [https://github.com/GitbookIO/javascript/blob/master/SUMMARY.md](https://github.com/GitbookIO/javascript/blob/master/SUMMARY.md)
 
----
+##
 
 ### COMENTÁRIOS
 
@@ -24,7 +24,7 @@ it will be ignored by the interpreter
 */
 ```
 
----
+##
 
 ### OPERAÇÕES
 
@@ -44,7 +44,7 @@ You can apply mathematic operations to numbers using some basic operators like:
 
 Precedência:  `()` → `**` → `*`, `/`, `%` → `+`, `-`
 
----
+##
 
 ### UTILIZAÇÃO "="
 
@@ -52,7 +52,7 @@ Precedência:  `()` → `**` → `*`, `/`, `%` → `+`, `-`
 - 5 == '5'  e  5 == 5:  são  *iguais* em valor. **
 - 5 === '5':  não são *idênticos*, possuem mesmo valor mas tipos diferentes.
 
----
+##
 
 ### CONDICIONAIS
 
@@ -174,7 +174,7 @@ Precedência:  `()` → `**` → `*`, `/`, `%` → `+`, `-`
     </html>
     ```
 
----
+##
 
 ### LOOPS
 
@@ -236,7 +236,7 @@ do {
     // print numeros menores que 10 
     ```
 
----
+##
 
 ### OBJETOS
 
@@ -437,7 +437,7 @@ Os tipos primitivos em JS são true, false, number, strings, null e undefined. T
 
     O módulo agora leva apenas um nome de variável - `myCounter`. Se qualquer outro módulo na página fizer uso de nomes como `number` ou `isGreaterThanTen,` então é perfeitamente seguro, porque não substituiremos os valores uns dos outros;
 
----
+##
 
 ### VARIÁVEIS
 
@@ -449,7 +449,7 @@ Os tipos primitivos em JS são true, false, number, strings, null e undefined. T
 - Null: a variable that contains null contains no valid Number, String, Boolean, Array, or Object
 - Undefined: the undefined value is obtained when you use an object property that does not exist, or a variable that has been declared, but has no value assigned to it.
 
----
+##
 
 ### STRINGS
 
@@ -467,7 +467,7 @@ var bigStr = "Hi " + "JS strings are nice " + "and " + "easy to add";
 var size = "Our lovely string".length;
 ```
 
----
+##
 
 ### TEMPLATE STRINGS
 
@@ -483,7 +483,7 @@ var lastname = 'Leite'
 document.write(`Meu nome é ${name} e meu sobrenpme é ${lastname})
 ```
 
----
+##
 
 ### ARRAYS
 
@@ -493,7 +493,7 @@ Arrays são uma parte fundamental da programação. Um array é uma lista de dad
 var random = ['tree', 795, [0, 1, 2]];
 ```
 
----
+##
 
 ### FUNÇÕES
 
@@ -538,7 +538,7 @@ map(add_2, [5, 6, 7]); // => [7, 8, 9]
 map(double, [5, 6, 7]); // => [10, 12, 14]
 ```
 
----
+##
 
 ### CONST VS LET VS VAR
 
@@ -562,7 +562,7 @@ window.document.write('.......')
 
     ![JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled%201.png](JavaScript%2057f83c53ce37412d8efbe34e4d3c2184/Untitled%201.png)
 
----
+##
 
 ### TIPOS DE SELEÇÃO
 
@@ -575,7 +575,7 @@ Podemos selecionar os elementos por:
 - Seletor:  `querySelector()` → retorna o elemento especificado  (element)
 - Seletor: `querySelectorAll()` → retorna todos os seletores com o mesmo nome (Nodelist / quando for usar forEach)
 
----
+##
 
 ### MANIPULANDO ESTILOS E CLASSES
 
@@ -593,7 +593,7 @@ console.log(element.classList)
 element.classList.remove('nomedaclasse')
 ```
 
----
+##
 
 ### ADICIONANDO ELEMENTOS
 
@@ -766,7 +766,7 @@ Para descobrir as "propriedades" dos eventos podemos usar o `event` . O `event` 
     //onkeyup, onkeypress, onkeydown
     ```
 
----
+##
 
 ### MANIPULANDO CONTEÚDOS
 
@@ -821,7 +821,7 @@ Para descobrir as "propriedades" dos eventos podemos usar o `event` . O `event` 
     - Podemos pegar: `.getAttribute()`
     - Podemos remover: `.removeAttribute()`
 
----
+##
 
 ### NAVEGANDO PELOS ELEMENTOS
 
@@ -844,7 +844,7 @@ A idéia básica da OOP é que usamos objetos para modelar coisas do mundo real 
 
 Os objetos podem conter dados e códigos relacionados, que representam informações sobre o que você está tentando modelar e a funcionalidade ou o comportamento que você deseja ter. Dados de objeto (e muitas vezes, funções também) podem ser armazenados ordenadamente (a palavra oficial é **encapsulados**) dentro de um pacote de objetos (que pode ser dado um nome específico para se referir, que é às vezes chamado de **namespace**), tornando fácil de estruturar e acessar; objetos também são comumente usados como armazenamentos de dados que podem ser facilmente enviados pela rede.
 
----
+##
 
 ### CLASSES
 
@@ -905,7 +905,7 @@ As classes podem ser exportadas de outros arquivos e devem começar com letra ma
     }
     ```
 
----
+##
 
 ### ATRIBUTOS PRIVADOS
 
@@ -938,7 +938,7 @@ Protege a variável para que a mesma não possa ser alterada. A variável deve s
     }
     ```
 
----
+##
 
 ### GET E SET
 
@@ -977,7 +977,7 @@ class ContaCorrente{
 //representa a conta corrente de quealquer cliente
 ```
 
----
+##
 
 ### CONSTRUCTOR
 
@@ -1010,11 +1010,3 @@ O construtor é um método especial para criar e inicializar um objeto criado a 
     // Criando novos clientes e seus dados //
     const cliente1 = new Cliente("Ricardo", 11122233309);
     ```
-
----
-
----
-
-### RESUMO SINTAXES
-
-[Untitled](https://www.notion.so/cf0d716b49d941238b6743f3d384bf7f)
