@@ -5,7 +5,6 @@
 Sites para aprender e tirar duvidas:
 
 - [w3schools](https://www.w3schools.com/html/default.asp)
-- 
 
 ---
 
@@ -44,7 +43,7 @@ HTML semântico é um estilo de código, onde a utilização de marcação HTML 
 
 ---
 
-### HMobile First
+### Mobile First
 
 Mobile First é um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para os desktops.
 
@@ -174,7 +173,7 @@ Bootstrap é um framework web com código-fonte aberto para desenvolvimento de c
 Passos:
 
 1. Acessar o site do bootsrap
-2. copiar as tags style e scrip do [site](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+2. Copiar as tags style e scrip do [site](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 3. Construir o documento colocando as classe do bootstrap e personalizando se necessário em um arquivo css separado
 
 [**Documentação**](https://getbootstrap.com)
@@ -444,39 +443,3 @@ Em alguns casos, os marcadores não possuem fechamento., como `img`, `br`, `hr`.
 - Compilado de tags e elementos
 
     [Untitled](https://www.notion.so/873b1899c43f464d9346ac9238a38efe)
-
----
-
-### Construindo uma pagina passo a passo
-
-1. Começar pelos textos: escreve todo conteúdo e definir as primeiras tags <h1></h1> e <p></p> 
-2. "Decorar o texto": definir as palavras/ frases que devem estar em negrito, itálico......
-3. Começar a usar o CSS: defir os styles - CSS IN LINE
-
-    3.1. Tamanho da fonte
-
-    3.2. Alinhamento do texto
-
-    ## OU
-
-3.  Começar o CSS: add a tag style dentro da <head></head>  
-
-3.1. Add dentro da tag style as propriedades. Exemplo: p {}
-
-## OU
-
-3.  Começar o CSS: abrir outro arquivo com o nome style.css e passar o p {} para o outro arquivo
-
-4.  Add cor ao texto: usar a propriedade style na aba do css
-
-5. Add imagens: add as imagens e fazer o alinhamento / espaçamento
-
-6.  Add classes: para definir os elementos
-
-7.  Add divisões: add a tag div conforme estrutura
-
-8.  Add cabeçalho: com a tag header e ajustar padding
-
-9. Fazer link com as paginas: através da tag a
-
-10. Usar o CCS reset: fazer o link com o arquivo
